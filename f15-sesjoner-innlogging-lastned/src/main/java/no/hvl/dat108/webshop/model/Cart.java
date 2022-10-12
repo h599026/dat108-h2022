@@ -7,10 +7,6 @@ public class Cart {
     
     private List<CartItem> items = new ArrayList<>();
     
-    public Cart() {
-    	items.add(new CartItem("heisann", 10));
-    }
-    
     public void addItem(CartItem item) {
     	
     	if (items.contains(item)) {
