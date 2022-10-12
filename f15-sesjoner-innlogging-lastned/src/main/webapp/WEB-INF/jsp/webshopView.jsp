@@ -8,6 +8,7 @@
 </head>
 
 <body>
+	<p>${test}</p>
 	<p>Du er innlogget som ${username}<br>
 	Totalt i handlekurv: kr ${cart.total}</p>
 	<table><tr>
